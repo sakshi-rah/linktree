@@ -1,0 +1,51 @@
+.link-card {
+    margin: 10px;
+    padding: 3px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px rgb(87, 83, 83);
+    cursor: pointer;
+}
+
+.container-link-handle {
+    display: flex;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    justify-content: center;
+   
+}
+
+.handle-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-img {
+    height: 30px;
+    padding: 2px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 5px;
+    box-shadow: 1px 1px 2px rgb(82, 79, 79);
+}
+
+.bg-github {
+    background-color: black;
+}
+
+.bg-facebook {
+    background-color: rgb(66, 103, 178);
+}
+
+.bg-instagram {
+    background-color: rgb(248, 46, 164);
+}
+
+.bg-linkedin {
+    background-color: rgb(0, 119, 181);
+}
+
+.hyper-link {
+    text-decoration: none;
+    color: white;
+}
