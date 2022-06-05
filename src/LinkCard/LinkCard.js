@@ -21,11 +21,10 @@ function LinkCard(props) {
             <img src={ImgMap[props.tittle]} className ='card-img'/>
             </div>
             <div className='handle-name'>
-            <h3 className='username'>{props.username} </h3>
+            <h4 className='username'>{props.username} </h4>
             </div>
         </div>
 
-       
        </a>
     </div>
   )

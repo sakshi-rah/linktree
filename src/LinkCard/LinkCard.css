@@ -1,9 +1,19 @@
 .link-card {
     margin: 10px;
     padding: 3px;
-    border-radius: 10px;
-    box-shadow: 1px 1px 3px rgb(87, 83, 83);
+    border-radius: 25px;
+    box-shadow: 1px 2px 3px rgb(46, 45, 45);
     cursor: pointer;
+    height: 45px;
+    width: 950px;
+    margin-left: auto ;
+    margin-right: auto;
+    
+}
+
+.link-card:hover{
+    border-radius: 10px;
+    box-shadow: 3px 2px 3px rgb(214, 83, 83);
 }
 
 .container-link-handle {
@@ -11,7 +21,7 @@
     margin-bottom: 0;
     padding-bottom: 0;
     justify-content: center;
-   
+
 }
 
 .handle-name {
