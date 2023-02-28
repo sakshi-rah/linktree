@@ -6,26 +6,26 @@ import ImgFacebook from './../Img/img-facebook.png'
 import ImgInstagram from './../Img/img-instagram.png'
 import ImgLinkedin from './../Img/img-linkedin.png'
 
-const  ImgMap = {
-    "github":  ImgGithub,
-    "facebook": ImgFacebook,
-    "instagram": ImgInstagram,
-    "linkedin": ImgLinkedin
+const ImgMap = {
+  "github": ImgGithub,
+  "facebook": ImgFacebook,
+  "instagram": ImgInstagram,
+  "linkedin": ImgLinkedin
 }
 function LinkCard(props) {
   return (
     <div className={`link-card bg-${props.tittle}`}>
-       <a href={props.link} className='hyper-link'>
+      <a href={props.link} className='hyper-link'>
         <div className='container-link-handle'>
-            <div>
-            <img src={ImgMap[props.tittle]} className ='card-img'/>
-            </div>
-            <div className='handle-name'>
+          <div>
+            <img src={ImgMap[props.tittle]} className='card-img' />
+          </div>
+          <div className='handle-name'>
             <h4 className='username'>{props.username} </h4>
-            </div>
+          </div>
         </div>
 
-       </a>
+      </a>
     </div>
   )
 }
